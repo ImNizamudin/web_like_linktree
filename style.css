@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url("images/futuristic.jpg"); */
+    background-image: url("images/tunnel-g125d54d55_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    max-width: 430px;
+    margin: 0 auto;
+    /* background-image: url("images/tunnel-g125d54d55_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img_profile{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #62F9EB;
+    border-radius: 100%;
+}
+
+.title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    /* background-color: #310895; */
+    background-color: #220A78;
+    font-size: 18px;
+    color: #FCFFFF;
+    font-weight: bold;
+    border: 2px solid #62F9EB;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #62F9EB;
+    color: #575858;
+    border: 2px solid #170949;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.github{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+}
